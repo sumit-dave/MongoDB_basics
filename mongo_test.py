@@ -7,7 +7,11 @@ print(db)
 d={
     'name': 'sumit',
     'email':'sumit@123',
-    'surname': 'kumar'
+    'surname': 'kumar',
+    'name1': 'sumit',
+    'email2': 'sumit@123',
+    'surname3': 'kumar'
+
 }
 db1=client['mongo_data']
 coll=db1['dict']
